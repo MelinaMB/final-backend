@@ -1,0 +1,207 @@
+paths:
+  /api/products:
+    get:
+      summary: Obtiene todos los productos
+      tags:
+        - Productos
+      parameters:
+        - in: query
+          name: limit
+          required: false
+          schema:
+            type: integer
+            description: Limite de productos
+        - in: query
+          name: page
+          require: false
+          schema: 
+            type: integer
+            description: Pagina a aparecer
+        - in: query
+          name: sort
+          require: false
+          schema:
+            type: integer
+            description: Ordenar precio de mayor a menor
+        - in : query
+          name: category
+          require: false
+          schema:
+            type: String
+            description: Ordena a los productos por categoria
+      responses:
+        "200":
+          description: Los productos fueron devueltos satisfactoriamente
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Productos"
+        "500":
+          description: Error del servidor. Usualmente generando la query o falla la conexion a la DB
+    post:
+      summary: Crear nuevo Producto 
+      tags:
+        - Productos
+      requestBody:
+        description: req
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Productos'    
+      responses:
+          "201":
+              description: Producto creado
+  /api/products/{pid}:
+    get:
+      summary: Obtiene un producto
+      tags:
+        - Productos
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          description: ID del producto que se busca
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: Producto encontrado
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Producto"
+    put:
+      summary: Actualizar un producto a partir del ID
+      tags:
+        - Productos
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          description: ID del producto que se busca
+          schema:
+            $type: String
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#components/requestBodies/updateProduct"
+      responses:
+        "200":
+          description: Producto modificado exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Success"
+        "500":
+          description: Error del servidor.
+    delete:
+        summary: Elimina un producto por id
+        tags:
+          - Productos
+        description: Delete product
+        parameters:
+          - in: path
+            name: productId
+            schema:
+                type: string
+            required: true
+            description: string id of product to delete
+        responses:
+           200:
+               description: products that was deleted
+components:
+  schemas:
+    Success:
+      type: object
+      properties:
+        status:
+          type: String
+          description: success or error
+        message:
+          type: String
+          description: aclarando que ocurrio
+      example:
+        status: success
+        message: User updated
+    Productos:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: ID auto generado by mongo
+        title:
+          type: String
+          description: Titulo del producto
+        desciption:
+          type: String
+          description: Descripcion del producto
+        code:
+          type: String
+          description: Codigo unico del producto 
+        price:
+          type: Number
+          description: Valor del producto
+        status:
+          type: String
+          description: Estado del producto por defecto es true
+        stock:
+          type: Number
+          description: cantidad del prodcuto en stock
+        category:
+          type: String
+          description: Categoria del producto
+        thumbnails:
+          type: Array
+          description: Imagen del producto
+      example:
+        _id: ObjectId("644081a93f0625dc193bc594")
+        title: Jabon
+        description: Jabon con olor a lavanda
+        code: abc1223
+        price: 240
+        status: true
+        stock: 30
+        category: Perfumeria
+        thumbnails: [https://www.imagendejabon.com]
+  requestBodies:
+    updateProduct:
+      type: object
+      properties:
+        title:
+          type: String
+          description: Titulo del producto
+        desciption:
+          type: String
+          description: Descripcion del producto
+        code:
+          type: String
+          description: Codigo unico del producto 
+        price:
+          type: Number
+          description: Valor del producto
+        status:
+          type: String
+          description: Estado del producto por defecto es true
+        stock:
+          type: Number
+          description: cantidad del prodcuto en stock
+        category:
+          type: String
+          description: Categoria del producto
+        thumbnails:
+          type: Array
+          description: Imagen del producto
+      example:
+        title: Jabon
+        description: Jabon con olor a lavanda
+        code: abc1223
+        price: 240
+        status: true
+        stock: 30
+        category: Perfumeria
+        thumbnails: [https://www.imagendejabon.com]

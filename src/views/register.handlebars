@@ -1,0 +1,68 @@
+<div>
+  <section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Registro</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12 col-lg-10">
+					<div class="wrap d-md-flex">
+						<div class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
+							<div class="text w-100">
+								<h2>Bienvenido al Registro</h2>
+								<p>¿Ya tienes cuenta?</p>
+								<a href='/api/user/login' class="btn btn-white btn-outline-white">Login</a>
+							</div>
+			      </div>
+						<div class="login-wrap p-4 p-lg-5">
+			      	<div class="d-flex">
+			      		<div class="w-100">
+			      			<h3 class="mb-4">Registrate</h3>
+			      		</div>
+								
+			      	</div>
+							<form method='POST' action='/api/user/register'class="signin-form">
+			      		<div class="form-group mb-3">
+			      			<label class="label" for="name">Email</label>
+			      			<input id='email' name='email' placeholder='email' type='text' class="form-control" required>
+			      		</div>
+		            <div class="form-group mb-3">
+		            	<label class="label" for="password">Password</label>
+		              <input id='pass' name='password' placeholder='password' type="password" class="form-control" required>
+		            </div>
+                <div class="form-group mb-3">
+			      			<label class="label" for="name">FirtName</label>
+			      			<input name='firstName' placeholder='firstName' type='text' class="form-control" required>
+			      		</div>
+                <div class="form-group mb-3">
+			      			<label class="label" for="name">LastName</label>
+			      			<input name='lastName' placeholder='lastName' type='text' class="form-control" required>
+			      		</div>
+                <div class="form-group mb-3">
+			      			<label class="label" for="name">Edad</label>
+			      			<input name='age' placeholder='age' type='number' class="form-control" required>
+			      		</div>
+		            <div class="form-group">
+		            	<button type='submit' value='register!'class="form-control btn btn-primary submit px-3">Registrarte</button>
+		            </div>
+		            <div class="form-group d-md-flex">
+		            	<div class="w-50 text-left">
+			            	<label class="checkbox-wrap checkbox-primary mb-0">Remember Me
+									  <input type="checkbox" checked>
+									  <span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="w-50 text-md-right">
+										<a href="#">Forgot Password</a>
+									</div>
+		            </div>
+		          </form>
+		        </div>
+		      </div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

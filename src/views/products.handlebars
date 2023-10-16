@@ -1,0 +1,98 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/cambioDeRol">Cambio de Rol</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/crearProducto">Crear Producto</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="/admin">Adminitrador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/misProductos">Mis Productos</a>
+        </li>
+      </ul>
+      {{#if firstName}}
+      <div class="d-flex mr-2">
+        <div class="d-flex">
+          <div>
+            <h4 class="fs-6">Hola, {{firstName}}. Tu rol es {{rol}}. Eres premium: {{premium}}. Eres Admin: {{isAdmin}}</h4>
+          </div>
+          <div>
+            <a class="btn btn-danger" href="/api/user/logout">
+              <i></i>Logout
+            </a>
+          </div>
+        </div>
+      </div>
+      {{/if}}
+      <div>
+        <div>
+          <button class="btn btn-warning" onclick="showCart()">Ver Carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <h1>Bienvenido</h1>
+    <div class="row d-flex justify-content-evenly" style="height:auto">
+  {{#each products}}
+  <div class="d-flex col col-xxl-6 col-xl-3 col-lg-6 m-3" style="width: 18rem; height:520px">
+      <div class="card mb-0" style="width: 18rem; height:520px">
+        <p class="mb-0">thumbnails:</p>
+        <img class="card-img-top" style="width: 16rem; height: 150px" src="{{this.thumbnails}}" alt="">
+        <div class="card-body" style="height: 300px; padding: 0px;">
+          <h5 class="card-title mb-0">title: {{this.title}}</h5>
+          <p class="card-text mb-0">description: {{this.description}}</p>
+          <h5 class="card-title mb-0">code: {{this.code}}</h5>
+          <h5 class="card-title mb-0">price: {{this.price}}</h5>
+          <h5 class="card-title mb-0">status: {{this.status}}</h5>
+          <h5 class="card-title mb-0">stock: {{this.stock}} </h5>
+          <h5 class="card-title">category: {{this.category}}</h5>
+          <a href="/products/{{this._id}}" class="btn btn-primary">Detalle</a>
+          <button class="btn btn-success" onclick="putIntoCart('{{this._id}}')">Agregar al Carrito</button>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+  </div>
+
+  <div class="m-3">
+  {{#if paginate.hasPrevPage}}
+  <a href="/products?page= {{paginate.prevPage}}">{{paginate.prevPage}}</a>
+  {{/if}}
+  <a> {{paginate.page}} </a>
+  {{#if paginate.hasNextPage}}
+  <a href="/products?page= {{paginate.nextPage}}">{{paginate.nextPage}}</a>
+  {{/if}}
+  </br>
+  </div>
+
+ <div class="m-3">
+  {
+  status: "succes"
+  totalDocs:{{paginate.totalDocs}}
+  limit:{{paginate.limit}}
+  totalPages:{{paginate.totalPages}}
+  page:
+  {{paginate.page}}
+  pagingCounter:{{paginate.pagingCounter}}
+  hasPrevPage:{{paginate.hasPrevPage}}
+  hasNextPage:{{paginate.hasNextPage}}
+  prevPage:{{paginate.prevPage}}
+  nextPage:{{paginate.nextPage}}
+  }
+ </div>
+
+  <script src="/js/product.js"></script>
+</main>

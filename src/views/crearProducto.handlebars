@@ -1,0 +1,48 @@
+<h1>Crear un nuevo producto</h1>
+
+<div class="d-flex flex-column align-items-center ">
+    <form method="POST" action="api/products" id="formulario-productos" name="products">
+        <div>Nuevo Producto</div>
+        <div>
+            <label for="title">title</label>
+            <input type="text" name="title" placeholder="title" id="title">
+        </div>
+        <div>
+            <label for="description">description</label>
+            <input type="text" name="description" placeholder="description" id="description">
+        </div>
+        <div>
+            <label for="code">code</label>
+            <input type="text" name="code" placeholder="code" id="code">
+        </div>
+        <div>
+            <label for="price">price</label>
+            <input type="text" name="price" placeholder="price" id="price">
+        </div>
+        <div>
+            <label for="status">status</label>
+            <input type="text" name="status" placeholder="status" id="status">
+        </div>
+        <div>
+            <label for="stock">stock</label>
+            <input type="text" name="stock" placeholder="stock" id="stock">
+        </div>
+        <div>
+            <label for="category">category</label>
+            <input type="text" name="category" placeholder="category" id="category">
+        </div>
+        <div>
+            <label for="thumbnails">thumbnails</label>
+            <input type="text" name="thumbnails" placeholder="thumbnails" id="thumbnails">
+        </div>
+        <div>
+            <label for="owner">Owner</label>
+            <input type="text" name="owner" placeholder="email" id="owner">
+        </div>
+        <input type="submit" value="producto nuevo">
+        <li class='nav-item'>
+            <a class='nav-link' href='/products'>Volver al inicio</a>
+        </li>
+    </form>
+
+</div>

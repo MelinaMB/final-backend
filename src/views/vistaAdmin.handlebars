@@ -1,0 +1,24 @@
+<h1>Administrador</h1>
+<li class='nav-item'>
+  <a class='nav-link' href='/products'>Volver al inicio</a>
+</li>
+
+{{#each users}}
+<div class="d-flex col col-xxl-6 col-xl-3 col-lg-6 m-3" style="width: 18rem; height:520px">
+  <div class="card mb-0" style="width: 18rem; height:520px">
+    <div class="card-body" style="height: 300px; padding: 0px;">
+      <h5 class="card-title mb-0">firstName: {{this.firstName}}</h5>
+      <p class="card-text mb-0">lastName: {{this.lastName}}</p>
+      <h5 class="card-title mb-0">email: {{this.email}}</h5>
+      <h5 class="card-title mb-0">age: {{this.age}}</h5>
+      <h5 class="card-title mb-0">isAdmin: {{this.isAdmin}}</h5>
+      <h5 class="card-title mb-0">rol: {{this.rol}} </h5>
+      <h5 class="card-title">premium: {{this.premium}}</h5>
+      <button class="btn btn-success" onclick="cambioDeRol('{{this._id}}')">Modificar Rol</button>
+      <button class="btn btn-success" onclick="eliminarUsuario('{{this._id}}')">Eliminar</button>
+    </div>
+  </div>
+</div>
+{{/each}}
+
+<script src="/js/product.js"></script>

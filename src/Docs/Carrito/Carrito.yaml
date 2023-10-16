@@ -1,0 +1,226 @@
+paths:
+  /api/carts:
+    get:
+      summary: Obtiene todos los carritos
+      tags:
+        - Carrito
+      responses:
+        "200":
+          description: Los carritos fueron devueltos satisfactoriamente
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Carrito"
+        "404":
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  error:
+                    type: string
+                    example: UNEXPECTED ERROR...
+    post:
+      summary: Crear nuevo cart
+      tags:
+        - Carrito
+      content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Carrito'    
+      responses:
+          "201":
+              description: Producto creado
+  /api/carts/{cid}:
+    get:
+      summary: Obtiene un cart
+      tags:
+        - Carrito
+      parameters:
+        - name: cid
+          in: path
+          required: true
+          description: ID del carrito que se busca
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: Carrito encontrado
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Carrito"
+    put:
+      summary: Actualizar carrito
+      tags:
+        - Carrito
+      parameters:
+        - name: cid
+          in: params
+          required: true
+          description: Id del carrito
+          schema:
+            $type: String
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#components/requestBodies/updateCarrito"
+      responses:
+        "200":
+          description: Carrito modificado exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Success"
+    delete:
+      summary: Elimina un carrito por id
+      tags:
+        - Carrito
+      description: Delete carrito
+      parameters:
+        - in: path
+          name: cid
+          schema:
+              type: string
+          required: true
+          description: string id of cart to delete
+      responses:
+          200:
+              description: Carrito eliminado
+  /api/carts/{cid}/product/{pid}:
+    post:
+      summary: Poner producto en carrito 
+      tags:
+        - Carrito
+      parameters:
+        - name: cid
+          in: path
+          type: String
+          description: id del carrito
+        - name: pid
+          in: path
+          type: String
+          description: id del producto
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Carrito'    
+      responses:
+          "201":
+              description: Producto agregado al carrito
+    delete:
+      summary: Elimina un carrito por id
+      tags:
+        - Carrito
+      description: Delete producto en carrito
+      parameters:
+        - in: path
+          name: cid
+        - in: path
+          name: pid
+          schema:
+              type: string
+          required: true
+          description: string id of cart to delete
+      responses:
+          200:
+              description: Carrito eliminado
+  /api/carts/{cid}/products/{pid}:
+    put:
+      summary: Actualizar carrito
+      tags:
+        - Carrito
+      parameters:
+        - name: cid
+          in: path
+        - name: pid
+          in: path
+          required: true
+          description: Id del carrito
+          schema:
+            $type: String
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#components/requestBodies/updateCarrito"
+      responses:
+        "200":
+          description: Carrito modificado exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Success"
+
+components:
+  schemas:
+    Success:
+      type: object
+      properties:
+        status:
+          type: String
+          description: success or error
+        message:
+          type: String
+          description: aclarando que ocurrio
+      example:
+        status: success
+        message: User updated
+    Carrito:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: ID auto generado by mongo
+        products:
+          type: Array
+        product:
+          type: ObjectId
+          description: Id del producto agregado al carrito
+        quantity:
+          type: Number
+          description: Cantidad del producto
+        _ id:
+          type: ObjectId
+          description: ID de la accion auto generado by mongo
+      example:
+        _id: ObjectId("644081a93f0625dc193bc595")
+        products: [
+            {
+              product: ObjectId('648233f16b02b49b937da491'),
+              quantity: 5,
+              _ id: ObjectId("644081a93f0625dc193sc593")
+            }
+         ]
+        
+  requestBodies:
+    updateCarrito:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: ID auto generado by mongo
+        products:
+          type: Array
+        product:
+          type: ObjectId
+          description: Id del producto agregado al carrito
+        quantity:
+          type: Number
+          description: Cantidad del producto
+      example:
+        _id: ObjectId("644081a93f0625dc193bc594")
+        products: [
+            {
+              product: ObjectId('648233f16b02b49b937da491'),
+              quantity: 5
+            }
+         ]

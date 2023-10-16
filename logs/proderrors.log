@@ -1,0 +1,3 @@
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m

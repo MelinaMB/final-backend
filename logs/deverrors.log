@@ -1,0 +1,314 @@
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":"Este es un mensaje de información."}[39m
+[33m{"level":"warn","message":"Este es un mensaje de advertencia."}[39m
+[31m{"level":"error","message":"Este es un mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[31m{"level":"error"}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[32m{"level":"info","message":" mensaje de información."}[39m
+[33m{"level":"warn","message":" mensaje de advertencia."}[39m
+[31m{"level":"error","message":" mensaje de error."}[39m
+[33m{"level":"warn","message":"Cast to ObjectId failed for value \"5020537\" (type string) at path \"_id\" for model \"products\""}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[32m{"level":"info","message":"Cannot read properties of undefined (reading 'cart')"}[39m
+[33m{"level":"warn","message":"Parameter \"obj\" to Document() must be an object, got \"http://localhost:8080/api/products/aceituna.jfif\" (type string)"}[39m
+[33m{"level":"warn","message":"Parameter \"obj\" to Document() must be an object, got \"aceituna.jfif\" (type string)"}[39m
+[33m{"level":"warn","message":"products validation failed: category: Path `category` is required., stock: Path `stock` is required., status: Path `status` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., title: Path `title` is required."}[39m
+[33m{"level":"warn","message":"products validation failed: category: Path `category` is required., stock: Path `stock` is required., status: Path `status` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., title: Path `title` is required."}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: \"abc123167\" }"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"Cast to ObjectId failed for value \"{cid}\" (type string) at path \"_id\" for model \"carts\""}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: \"abc234113884\" }"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[32m{"level":"info","message":"hjjjhj is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"req is not defined"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'filename')"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'title')"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"Parameter \"obj\" to Document() must be an object, got \"dsd\" (type string)"}[39m
+[33m{"level":"warn","message":"Parameter \"obj\" to Document() must be an object, got \"dsd\" (type string)"}[39m
+[33m{"level":"warn","message":"products validation failed: category: Path `category` is required., stock: Path `stock` is required., status: Path `status` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., title: Path `title` is required."}[39m
+[33m{"level":"warn","message":"Parameter \"obj\" to Document() must be an object, got \"ef\" (type string)"}[39m
+[33m{"level":"warn","message":"Parameter \"obj\" to Document() must be an object, got \"ef\" (type string)"}[39m
+[33m{"level":"warn","message":"Parameter \"obj\" to Document() must be an object, got \"ef\" (type string)"}[39m
+[33m{"level":"warn","message":"Parameter \"obj\" to Document() must be an object, got \"ef\" (type string)"}[39m
+[33m{"level":"warn","message":"product was not created"}[39m
+[33m{"level":"warn","message":"products validation failed: category: Path `category` is required., stock: Path `stock` is required., status: Path `status` is required., price: Path `price` is required., code: Path `code` is required., description: Path `description` is required., title: Path `title` is required."}[39m
+[33m{"level":"warn","message":"E11000 duplicate key error collection: ecommerce.products index: code_1 dup key: { code: \"abc128493433\" }"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[31m{"level":"error","message":"req is not defined"}[39m
+[32m{"level":"info","message":{"_id":"648234f36b02b49b937da499","category":"almacen","code":"abc39399393","description":"mayonesa","price":300,"stock":27,"thumbnail":["https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2019/06/05163209/RFB-2805-7-mayonesa.jpg"],"title":"mayonesa"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[33m{"level":"warn","message":"Cannot set properties of undefined (setting 'premium')"}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"6482315e6b02b49b937da489","category":"almacen","code":"abc128675","description":"elaborado con harina de trigo","price":200,"stock":40,"thumbnail":["https://images.hola.com/imagenes/cocina/recetas/20191009151184/pan-de-leche/0-730-595/pan-leche-t.jpg?tx=w_680"],"title":"pan"}}[39m
+[32m{"level":"info","message":{"_id":"648235276b02b49b937da49b","category":"almacen","code":"abc9339447","description":"fideos largos","price":200,"stock":24,"thumbnail":["https://thumbs.dreamstime.com/b/tallarines-o-macarrones-largos-6055408.jpg"],"title":"fideos"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"648233a26b02b49b937da48d","category":"almacen","code":"abc122463","description":"azucar proveniente de caña de azucar","price":150,"stock":20,"thumbnail":["https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"],"title":"azucar"}}[39m
+[32m{"level":"info","message":{"_id":"6482315e6b02b49b937da489","category":"almacen","code":"abc128675","description":"elaborado con harina de trigo","price":200,"stock":40,"thumbnail":["https://images.hola.com/imagenes/cocina/recetas/20191009151184/pan-de-leche/0-730-595/pan-leche-t.jpg?tx=w_680"],"title":"pan"}}[39m
+[31m{"level":"error","message":"Cannot read properties of null (reading '_id')"}[39m
+[32m{"level":"info","message":"Cannot read properties of undefined (reading 'cart')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading '_id')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'owner')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'owner')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'owner')"}[39m
+[33m{"level":"warn","message":"owner is not defined"}[39m
+[33m{"level":"warn","message":"Cast to string failed for value \"{ traerOwner: { email: 'test@gmail.com' } }\" (type Object) at path \"owner\" for model \"products\""}[39m
+[33m{"level":"warn","message":"Cast to string failed for value \"{ email: 'test@gmail.com' }\" (type Object) at path \"owner\" for model \"products\""}[39m
+[31m{"level":"error","message":"Assignment to constant variable."}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'status')"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'status')"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'status')"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'status')"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium.map is not a function"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium.map is not a function"}[39m
+[31m{"level":"error","message":"doc is not defined"}[39m
+[31m{"level":"error","message":"model is not defined"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium._doc.map is not a function"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium._doc.map is not a function"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium.map is not a function"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium.model.map is not a function"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium.map is not a function"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'map')"}[39m
+[31m{"level":"error","message":"Cannot access 'products' before initialization"}[39m
+[31m{"level":"error","message":"Cannot access 'products' before initialization"}[39m
+[31m{"level":"error","message":"Assignment to constant variable."}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'map')"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'map')"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium.map is not a function"}[39m
+[31m{"level":"error","message":"_doc.map is not a function"}[39m
+[31m{"level":"error","message":"_doc.map is not a function"}[39m
+[31m{"level":"error","message":"_doc.map is not a function"}[39m
+[31m{"level":"error","message":"_doc.map is not a function"}[39m
+[31m{"level":"error","message":"_doc.map is not a function"}[39m
+[31m{"level":"error","message":"_doc.map is not a function"}[39m
+[31m{"level":"error","message":"listaDeProductosPremium is not iterable"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'Object')"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'Object')"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'Object')"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'map')"}[39m
+[31m{"level":"error","message":"products is not defined"}[39m
+[31m{"level":"error","message":"Cannot read properties of undefined (reading 'map')"}[39m
+[33m{"level":"warn","message":"error is not defined"}[39m
+[33m{"level":"warn","message":"error is not defined"}[39m
+[33m{"level":"warn","message":"error is not defined"}[39m
+[33m{"level":"warn","message":"error is not defined"}[39m
+[33m{"level":"warn","message":"error is not defined"}[39m
+[33m{"level":"warn","message":"error is not defined"}[39m
+[33m{"level":"warn","message":"error is not defined"}[39m
+[33m{"level":"warn","message":"No puedes agregar este producto a tu carrito"}[39m
+[33m{"level":"warn","message":"No puedes agregar este producto a tu carrito porque es tu producto"}[39m
+[33m{"level":"warn","message":"alert is not defined"}[39m
+[33m{"level":"warn","message":"alert is not defined"}[39m
+[33m{"level":"warn","message":"No puedes agregar este producto a tu carrito porque es tu producto"}[39m
+[33m{"level":"warn","message":"alert is not defined"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'substring')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'substring')"}[39m
+[33m{"level":"warn","message":"Service.find is not a function"}[39m
+[33m{"level":"warn","message":"UsersModels.find is not a function"}[39m
+[33m{"level":"warn","message":"ModelsUser.find is not a function"}[39m
+[33m{"level":"warn","message":"usuario.split is not a function"}[39m
+[33m{"level":"warn","message":"ultimoLogging.split is not a function"}[39m
+[33m{"level":"warn","message":"ultimoLogging.split is not a function"}[39m
+[33m{"level":"warn","message":"Date.parse is not a constructor"}[39m
+[33m{"level":"warn","message":"Date.parseInt is not a function"}[39m
+[33m{"level":"warn","message":"Date.toISOString is not a function"}[39m
+[33m{"level":"warn","message":"ultimoLogging.substring is not a function"}[39m
+[33m{"level":"warn","message":"ultimoLogging.substring is not a function"}[39m
+[33m{"level":"warn","message":"Invalid time value"}[39m
+[33m{"level":"warn","message":"Invalid time value"}[39m
+[33m{"level":"warn","message":"Invalid time value"}[39m
+[33m{"level":"warn","message":"ultimoLogging.substring is not a function"}[39m
+[33m{"level":"warn","message":"ultimoLogging.substring is not a function"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'substring')"}[39m
+[33m{"level":"warn","message":"Cannot read properties of undefined (reading 'slice')"}[39m
+[33m{"level":"warn","message":"ultimoLogging.map.slice is not a function"}[39m
+[32m{"level":"info","message":"Cannot read properties of undefined (reading 'cart')"}[39m
+[32m{"level":"info","message":"Cannot read properties of undefined (reading 'cart')"}[39m
+[33m{"level":"warn","message":"nodemailer is not defined"}[39m
+[33m{"level":"warn","message":"actividad is not defined"}[39m
+[33m{"level":"warn","message":"Parameter \"filter\" to deleteMany() must be an object, got \"0\" (type string)"}[39m
+[33m{"level":"warn","message":"usuario is not defined"}[39m
+[33m{"level":"warn","message":"Cannot set headers after they are sent to the client"}[39m
+[33m{"level":"warn","message":"Cannot set headers after they are sent to the client"}[39m
+[33m{"level":"warn","message":"Cannot set headers after they are sent to the client"}[39m
+[33m{"level":"warn","message":"Cannot set headers after they are sent to the client"}[39m
+[33m{"level":"warn","message":"Cannot set headers after they are sent to the client"}[39m
+[31m{"level":"error","message":"Cannot access 'prod' before initialization"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m
+[33m{"level":"warn","message":"No recipients defined"}[39m

@@ -1,0 +1,168 @@
+
+[
+    {
+        "title": "jabon",
+        "description": "jabon de uso corporal con fragancia a lavanda",
+        "code": "abc14252",
+        "price": 305,
+        "status": true,
+        "stock": 201,
+        "category": "perfumeria",
+        "thumbnails": [
+            "https://t2.uc.ltmcdn.com/es/posts/6/3/5/propiedades_del_jabon_de_rosa_mosqueta_44536_orig.jpg"
+        ],
+        "id": "95408023"
+    },
+    {
+        "title": "azucar",
+        "description": "azucar proveniente de caña de azucar",
+        "code": "abc122463",
+        "price": 150,
+        "status": true,
+        "stock": 20,
+        "category": "almacen",
+        "thumbnails": [
+            "https://www.cosemarozono.com/wp-content/uploads/2017/04/blanqueamiento-jarabe-azucar.jpg"
+        ],
+        "id": "49260822"
+    },
+    {
+        "title": "jabon liquido",
+        "description": "con aroma a lavanda",
+        "code": "abc12325",
+        "price": 20,
+        "status": true,
+        "stock": 20,
+        "category": "perfumeria",
+        "thumbnails": [
+            "https://cdn0.ecologiaverde.com/es/posts/2/2/7/como_hacer_jabon_liquido_casero_2722_orig.jpg"
+        ],
+        "id": "11846994"
+    },
+    {
+        "title": "leche",
+        "description": "leche de vaca larga vida",
+        "code": "abc12825",
+        "price": 310,
+        "status": true,
+        "stock": 50,
+        "category": "almacen",
+        "thumbnails": [
+            "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/219/229/products/leche-clasica1-3899720bbf9134703d16303300178303-640-0.webp"
+        ],
+        "id": "8524611"
+    },
+    {
+        "title": "pan",
+        "description": "elaborado con harina de trigo",
+        "code": "abc128675",
+        "price": 200,
+        "status": true,
+        "stock": 40,
+        "category": "almacen",
+        "thumbnails": [
+            "https://images.hola.com/imagenes/cocina/recetas/20191009151184/pan-de-leche/0-730-595/pan-leche-t.jpg?tx=w_680"
+        ],
+        "id": "66492847"
+    },
+    {
+        "title": "manteca",
+        "description": "manteca",
+        "code": "abc383892",
+        "price": "300",
+        "status": "true",
+        "stock": "40",
+        "category": "almacen",
+        "thumbnails": ["https://www.cocinaygastronomia.com/wp-content/uploads/2012/05/ac3967d77945d3b443ce51380e386716.jpg"],
+        "id": "76517246"
+    },
+    {
+        "title": "pure",
+        "description": "pure de papa en polvo",
+        "code": "abc393993",
+        "price": "200",
+        "status": "true",
+        "stock": "27",
+        "category": "almacen",
+        "thumbnails": ["https://ilomercado-assets.s3.amazonaws.com/thumbs/cache/84/9e/849e7612d3b9ec519cdabe239df3a27c.png"],
+        "id": "98980284"
+    },
+    {
+        "title": "tostadas",
+        "description": "tostadas integrales",
+        "code": "abc2919193",
+        "price": 370,
+        "status": "true",
+        "stock": 38,
+        "category": "almacen",
+        "thumbnails": ["https://www.diet-health.info/images/recipes/main_view/dunkles-toastbrot-toast-igor-kovalchuk-fotolia.jpg"],
+        "id": "64963825"
+    },
+    {
+        "title": "mayonesa",
+        "description": "mayonesa",
+        "code": "abc39399393",
+        "price": 300,
+        "status": "true",
+        "stock": 27,
+        "category": "almacen",
+        "thumbnails": ["https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2019/06/05163209/RFB-2805-7-mayonesa.jpg"],
+        "id": "10725488"
+    },
+    {
+        "title": "fideos",
+        "description": "fideos largos",
+        "code": "abc9339447",
+        "price": 200,
+        "status": "true",
+        "stock": 24,
+        "category": "almacen",
+        "thumbnails": ["https://thumbs.dreamstime.com/b/tallarines-o-macarrones-largos-6055408.jpg"],
+        "id": "94407346"
+    },
+    {
+        "title": "fideos",
+        "description": "fideos tirabuzon",
+        "code": "abc3950265",
+        "price": 230,
+        "status": "true",
+        "stock": 17,
+        "category": "almacen",
+        "thumbnails": ["https://http2.mlstatic.com/D_NQ_NP_845655-MLA41700985578_052020-O.webp"],
+        "id": "58297141"
+    },
+    {
+        "title": "fideos",
+        "description": "fideos dedalito",
+        "code": "abc39565",
+        "price": 230,
+        "status": "true",
+        "stock": 17,
+        "category": "almacen",
+        "thumbnails": ["https://img-global.cpcdn.com/steps/ea7d242ca089a23b/160x128cq70/foto-del-paso-1-de-la-receta-fideos-dedalitos-con-calabaza-al-horno-para-los-mas-pequenos.jpg"],
+        "id": "34161750"
+    },
+    {
+        "title": "fideos",
+        "description": "fideos mostachol",
+        "code": "abc29292",
+        "price": 230,
+        "status": "true",
+        "stock": 18,
+        "category": "almacen",
+        "thumbnails": ["https://sanisidro.ceromarket.com.ar/wp-content/uploads/sites/11/2022/08/fideos-mostacholes.jpg"],
+        "id": "42012525"
+    },
+    {
+        "title": "fideos",
+        "description": "fideos de letra",
+        "code": "abc20033",
+        "price": 230,
+        "status": "true",
+        "stock": 13,
+        "category": "almacen",
+        "thumbnails": ["https://c8.alamy.com/compes/b09850/ningun-dinero-escrita-en-letra-de-fideos-pasta-alfabeto-b09850.jpg"],
+        "id": "32142838"
+    }
+]
+
