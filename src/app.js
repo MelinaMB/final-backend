@@ -32,6 +32,10 @@ const app = express();
 const port = config.port || 8080;
 
 app.use(addLogger);
+app.use((req, res, next) => {
+  res.header({"Access-Control-Allow-Origin": "*"});
+  next();
+}) 
 app.get("/loggerTest", (req, res) => {
   try {
     req.logger.debug(' mensaje de debug.');
