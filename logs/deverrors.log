@@ -313,3 +313,4 @@
 [33m{"level":"warn","message":"No recipients defined"}[39m
 [33m{"level":"warn","message":"No recipients defined"}[39m
 [32m{"level":"info","message":"Cannot read properties of undefined (reading 'cart')"}[39m
+[32m{"level":"info","message":"Cannot read properties of undefined (reading 'cart')"}[39m
